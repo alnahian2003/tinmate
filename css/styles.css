@@ -1,0 +1,489 @@
+/*--------------------------------------------------------------
+|                                                              |
+|      Developed By Al Nahian | Copyright ©2020 | TinMate      |
+|                                                              |
+---------------------------------------------------------------*/
+/* browser default styling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* customized scrollbar for chrome desktop version only */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb:hover {
+  background: #0b5fdd;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b5fdd', endColorstr='#4ca3ef', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  border: 1px solid #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* body styling */
+body {
+  font-family: "Montserrat" !important;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-x: hidden;
+}
+
+img {
+  pointer-events: none;
+}
+
+a, a:hover, a:visited, a:focus {
+  text-decoration: none !important;
+}
+
+/* hero section styling */
+#hero {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, .3);
+  background: #0b5fdd;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b5fdd', endColorstr='#4ca3ef', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  box-shadow: 0px 5px 20px rgba(50, 50, 50, .5);
+}
+
+/*--------------------------------------------------------------
+|                                                              |
+|      Developed By Al Nahian | Copyright ©2020 | TinMate      |
+|                                                              |
+---------------------------------------------------------------*/
+/* navbar styling */
+.navbar {}
+
+/* logo/brandname styling */
+.navbar-brand {
+  font-family: "Pacifico" !important;
+  font-size: 2.5em !important;
+}
+
+.nav-items {
+  padding: 0 5px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255) !important;
+}
+
+/* hero row styling */
+.hero-row {
+  margin-top: 10%;
+}
+
+/* hero description styling */
+.hero-description {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+/* hero button styling */
+.get-started-button, .join-community-button {
+  margin-right: 5px;
+}
+
+/* hero image styling */
+.hero-img {
+  margin-top: -10%;
+  padding-bottom: 10%;
+  margin-left: 40%;
+  transform: rotate(20deg);
+}
+
+/* hero title styling */
+.hero-title {
+  color: #fff;
+  font-family: "Spartan";
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, .3);
+  line-height: 1.5;
+}
+
+/* features section styling */
+#features {
+  padding: 8% 20%;
+}
+
+.features-box {
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat" !important;
+  font-weight: 700 !important;
+}
+
+.features-icons {
+  font-size: 55px;
+  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 80%, #54a3ee 79%, #4ca3ef 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.features-icons:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+
+/*--------------------------------------------------------------
+|                                                              |
+|      Developed By Al Nahian | Copyright ©2020 | TinMate      |
+|                                                              |
+---------------------------------------------------------------*/
+/* testimonial section styling */
+#testimonials {
+  padding: 10% 10%;
+  text-align: center;
+  background-color: #0b5fdd;
+  color: #fff;
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, .3);
+  margin-bottom: 5%;
+  box-shadow: 0px 5px 20px rgba(50, 50, 50, .5);
+}
+
+#testimonials h2 {
+  font-weight: 700 !important;
+  margin-bottom: 3%;
+}
+
+.quotation-symbol {
+  padding: 0 2%;
+  font-family: "Spartan";
+}
+
+#testimonials img {
+  border-radius: 50%;
+}
+
+#testimonials p {
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+.carousel-inner {
+  margin-top: 5%;
+  height: 350px;
+}
+
+em {
+  font-size: 16px;
+  margin-bottom: 10%;
+}
+
+/* press section styling */
+#press {
+  text-align: center;
+  margin-bottom: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.press-image {
+  width: 15%;
+  padding: 0 2% 0 2%;
+}
+
+/* pricing section styling */
+#pricing {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0b5fdd+1,3690f0+60,54a3ee+79,4ca3ef+100 */
+  background: #0b5fdd;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b5fdd', endColorstr='#4ca3ef', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  box-shadow: 0px 5px 20px rgba(50, 50, 50, .5);
+  text-align: center;
+  padding: 10% 15%;
+  font-family: "Montserrat";
+}
+
+.pricing-heading {
+  color: #fff;
+  margin-bottom: 10%;
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, .3);
+}
+
+.pricing-heading h2 {
+  font-weight: 700 !important;
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, .3);
+}
+
+.card-header {
+  font-weight: 700 !important;
+}
+
+.pricing-section-icon {
+  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 80%, #54a3ee 79%, #4ca3ef 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rotated-icon {
+  transform: rotate(-45deg);
+}
+
+.price {
+  font-weight: 700 !important;
+  color: #3690f0;
+}
+
+h4 {
+  font-weight: 700 !important;
+}
+
+/* call to action section styling */
+#cta {
+  text-align: center;
+  padding: 10% 10%;
+  font-family: "Montserrat"
+}
+
+#cta p {
+  margin-bottom: 3%;
+}
+
+/* footer section styling */
+#footer {
+  background: #0b5fdd;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b5fdd', endColorstr='#4ca3ef', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  color: #fff;
+  text-align: center;
+  padding: 2% 0%;
+}
+
+.meet-the-dev {
+  margin-bottom: 10px;
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, .3);
+}
+
+.copyright-text {
+  font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+|                                                              |
+|      Developed By Al Nahian | Copyright ©2020 | TinMate      |
+|                                                              |
+---------------------------------------------------------------*/
+/*--------------------------------------------------------------
+|                                                              |
+|     Media Queries & Responsive Styling Starts From Here     |
+|                                                              |
+---------------------------------------------------------------*/
+/* ------------for mobile------------ */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  /* global rules */
+  h1 {
+    font-size: 1.2rem !important;
+  }
+
+  h2, h3, h4 {
+    font-size: 1rem !important;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+
+  button {
+    padding: 6px !important;
+  }
+
+  /* hero section rules   */
+  #hero {
+    text-align: center;
+  }
+
+  .hero-row {
+    text-align: center;
+    padding-bottom: 20%;
+  }
+
+  .hero-description {
+    margin-top: 0;
+    padding: 20% 0%;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  /* features section rules */
+  #features {
+    padding: 10% 10%;
+  }
+
+  /* testimonials section rules */
+  #testimonials {
+    padding: 10% 5%;
+  }
+
+  .carousel-item img {
+    width: 20%;
+  }
+
+  .carousel-item {
+    padding: 5% 5%;
+  }
+
+  .carousel-item p {
+    font-size: 16px !important;
+  }
+
+  /* press section styling */
+  .press-image {
+    width: 20%;
+    padding: 0 2%;
+  }
+
+  /* pricing section styling */
+  #pricing {
+    padding: 10% 10%;
+  }
+
+  /* footer section styling */
+  #footer {
+    padding: 5% 2.5% 3% 2.5%;
+  }
+
+  .meet-the-dev {
+    margin-bottom: 5px;
+  }
+
+  .social-buttons button {
+    padding: 0 5px;
+    margin: 3px 0;
+  }
+
+  /* cta section rules */
+  #cta {
+    margin: 10% 0;
+  }
+}
+
+/* ------------for tablet------------ */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 990px) {
+
+  /* hero section rules */
+  #hero {
+    text-align: center;
+  }
+
+  .hero-title {
+    margin-left: 0px;
+    padding: 0 5%;
+  }
+
+  .hero-row {
+    margin-top: 0;
+  }
+
+  .hero-description {
+    margin-top: 0;
+    padding: 20% 5%;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  /* testimonials section rules */
+  #testimonials {
+    padding: 5% 10%;
+  }
+
+  .carousel-inner {
+    margin-top: 5%;
+    height: 300px;
+  }
+
+  .carousel-item h2 {
+    margin-top: 5%;
+    font-size: 1.2rem !important;
+  }
+
+  .carousel-item img {
+    width: 15%;
+  }
+
+  /* pricing section rules */
+  #pricing {
+    padding: 10% 5%;
+  }
+
+  .list-unstyled li {
+    font-size: 16px !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* ------------for desktop------------ */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {}
+
+  /*--------------------------------------------------------------
+|                                                              |
+|     Media Queries & Responsive Styling Ends Right Here      |
+|                                                              |
+---------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+|                                                              |
+|      Developed By Al Nahian | Copyright ©2020 | TinMate      |
+|                                                              |
+---------------------------------------------------------------*/
